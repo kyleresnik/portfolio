@@ -65,14 +65,13 @@
   <!-- Intro Section -->
   <div id="intro" class="offset">
     <div class="col-12 narrow text-center">
-      <h1>This is my portfolio</h1>
       <p class="lead">
         On this portfolio page you will find links to my work, a list of skills, and some information
         about me. If you'd like to find out more, feel free to add me on LinkedIn or download my resum&eacute;
-        from the following links
+        from the following links:
       </p>
       <a class="btn btn-secondary btn-md" href="https://www.linkedin.com/in/kyle-resnik/" target="_blank">My LinkedIn</a>
-      <a class="btn btn-secondary btn-md" href="https://www.linkedin.com/in/kyle-resnik/" target="_blank">My Resum&eacute;</a>
+      <a class="btn btn-secondary btn-md" href="" target="_blank">My Resum&eacute;</a>
     </div>
   </div>
   <!-- End Intro Section -->
@@ -92,23 +91,31 @@
         <div class="row text-center">
           <div class="col-md-4">
             <div class="project">
+              <i class="fas fa-laptop-code fa-4x" data-fa-transform="shrink-4 up-5"></i>
+              <h3><a href="https://kyleresnik.github.io/tutorialPage/" target="_blank">JavaScript Tutorial</a></h3>
+              <p>This is the first website I've built utilizing HTML5 and CSS3. It is a simple website built to
+                show some JavaScript basics and for testing out the basics of the web. 
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="project">
               <i class="fas fa-gamepad fa-4x" data-fa-transform="shrink-3 up-5"></i>
               <h3><a href="https://savepoint-client.herokuapp.com/" target="_blank">SavePoint!</a></h3>
-              <p>A team project built with three other web developers utilizing </p>
+              <p>A team project built with AngularJS for the client and Node.js for the back-end.
+                SavePoint! handles processes such as admin privileges, user login, two instances of CRUD, 
+                and database associations with PostgresQL. Presented as a final project at Eleven Fifty Academy.
+              </p>
             </div>
           </div>
           <div class="col-md-4">
             <div class="project">
               <i class="fas fa-leaf fa-4x" data-fa-transform="shrink-4.5 up-4.5"></i>
               <h3><a href="https://kyleresnik.github.io/edenStorefront/" target="_blank">Eden Storefront</a></h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quod deleniti ea consequatur blanditiis</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="project">
-              <i class="fas fa-laptop-code fa-4x" data-fa-transform="shrink-4 up-5"></i>
-              <h3><a href="https://kyleresnik.github.io/tutorialPage/" target="_blank">JavaScript Tutorial</a></h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quod deleniti ea consequatur blanditiis</p>
+              <p>A client-side team project built with AngularJS with a back-end database provided by
+                Eleven Fifty Academy. Built using TypeScript and utilizing login authorization. Currently
+                I am working to rebuild the back-end with Node.js so it can display persisting data again.
+              </p>
             </div>
           </div>
         </div>
@@ -127,21 +134,28 @@
 
       <div class="row dark text-center">
         <div class="col-12">
-          <h3 class="heading">Skills</h3>
+          <h3 class="heading">Technical Skills</h3>
           <div class="heading-underline"></div>
         </div>
 
         <div class="col-md-4">
           <h3>HTML5</h3>
           <div class="skill">
-            <i class="fas fa-code fa-3x"></i>
+            <i class="fab fa-html5 fa-3x"></i>
           </div>
         </div>
 
         <div class="col-md-4">
           <h3>CSS 3</h3>
           <div class="skill">
-            <i class="fas fa-palette fa-3x"></i>
+            <i class="fab fa-css3 fa-3x"></i>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <h3>JavaScript</h3>
+          <div class="skill">
+            <i class="fab fa-js fa-3x"></i>
           </div>
         </div>
 
@@ -155,7 +169,7 @@
         <div class="col-md-4">
           <h3>ReactJS</h3>
           <div class="skill">
-              <i class="fab fa-react fa-3x"></i>
+            <i class="fab fa-react fa-3x"></i>
           </div>
         </div>
 
@@ -172,6 +186,21 @@
             <i class="fab fa-node-js fa-3x"></i>
           </div>
         </div>
+
+        <div class="col-md-4">
+          <h3>PostgresQL</h3>
+          <div class="skill">
+            <i class="fas fa-database fa-3x"></i>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <h3>GitHub</h3>
+          <div class="skill">
+              <i class="fab fa-github fa-3x"></i>
+          </div>
+        </div>
+
       </div> <!-- End Row Dark -->
 
       <div class="fixed-wrap">
@@ -184,7 +213,6 @@
 
   <!-- About Me Section -->
   <div id="about" class="offset">
-
     <!-- About Me Jumbotron -->
     <div class="jumbotron">
       <div class="col-12 text-center">
@@ -213,79 +241,69 @@
             </div>
           </div>
         </div>
-
       </div> <!-- End Row -->
     </div> <!-- End About Me Jumbotron -->
-
-    <div class="col-12 narrow text-center">
-      <p class="lead">Blah blah blah etc etc etc</p>
-      <a class="btn btn-secondary btn-md" href="https://www.linkedin.com/in/kyle-resnik/" target="_blank">LinkedIn</a>
-    </div>
-
   </div>
   <!-- End About Me -->
 
   <!-- Contact Section -->
-  <div id="contact" class="offset">
-
-      <!-- <div class="container">
-          <h2 class="text-center text-uppercase"><a name="linkToContact">Contact Me</a></h2>
-          <div class="row">
-            <form action="https://formspree.io/kylebresnik@gmail.com" method="POST" id="formStyle">
-              <div class="control-group">
-                <div class="form-group">
-                  <label>Name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Your Name"
-                    id="name"
-                    required
-                    data-validation-required-message="Please enter your name"
-                    name="name"
-                    >
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="form-group">
-                  <label>Email Address</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    placeholder="Your Email"
-                    id="email"
-                    required
-                    data-validation-required-message="Please enter your email"
-                    name="_replyto"
-                  >
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="form-group">
-                  <textarea
-                    class="form-control"
-                    rows="7"
-                    placeholder="Your Message"
-                    id="message"
-                    required
-                    data-validation-required-message="Please leave a message"
-                    name="message"
-                  ></textarea>
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="text-center">
-                <div id="success"></div>
-                <button type="submit" class="btn btn-lg btn-black">
-                  <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                  Send Message
-                </button>
-              </div>
-            </form>
+  <div id="contact" class="col-12 narrow text-center">
+    <div class="container">
+      <h2 class="text-center text-uppercase"><a name="linkToContact">Contact Me</a></h2>
+      <div class="row">
+        <form action="https://formspree.io/kylebresnik@gmail.com" method="POST" id="form-style">
+          <div class="control-group">
+            <div class="form-group">
+              <label>Name</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Your Name"
+                id="name"
+                required
+                data-validation-required-message="Please enter your name"
+                name="name">
+              <p class="help-block text-danger"></p>
+            </div>
           </div>
-        </div> -->
+          <div class="control-group">
+            <div class="form-group">
+              <label>Email Address</label>
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Your Email"
+                id="email"
+                required
+                data-validation-required-message="Please enter your email"
+                name="_replyto">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+            <div class="control-group">
+              <div class="form-group">
+                <textarea
+                  class="form-control"
+                  rows="7"
+                  placeholder="Your Message"
+                  id="message"
+                  required
+                  data-validation-required-message="Please leave a message"
+                  name="message">
+                </textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="text-center">
+              <div id="success"></div>
+              <button type="submit" class="btn btn-lg btn-black">
+                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
     
   </div>
   <!-- End Contact Section -->
@@ -295,18 +313,17 @@
     <footer>
       <div class="row justify-content-center">
         <div class="col-md-5 text-center">
-          <p>This portfolio site was built with the help of a Bootstrap 4 tutorial by Drew Ryan.</p>
           <strong>Contact Info</strong>
           <p>kresnik.dev@gmail.com</p>
-          <a href="https://github.com/kyleresnik" target="_blank"><i class="fab fa-github-square"></i></a>
-          <a href="https://twitter.com/kyle_resnik" target="_blank"><i class="fab fa-twitter-square"></i></a>
-          <a href="https://codepen.io/kresnik/" target="_blank"><i class="fab fa-codepen"></i></a>
+          <a href="https://github.com/kyleresnik" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+          <a href="https://twitter.com/kyle_resnik" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
+          <a href="https://codepen.io/kresnik/" target="_blank"><i class="fab fa-codepen fa-2x"></i></a>
         </div>
         <hr class="socket">
-        <a href="https://www.youtube.com/watch?v=V_lAhqLXT9A" target="_blank">Nuno Bootstrap Theme</a>
       </div>
     </footer>
   </div>
+  <!-- This portfolio site was built with the help of a Bootstrap 4 tutorial by Drew Ryan. -->
   <!-- End Footer -->
 
   <!-- Script Source Files -->

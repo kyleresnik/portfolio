@@ -13,6 +13,13 @@ body {
   margin-top: -4rem;
 }
 
+a {
+  color: #470000;
+}
+a:hover {
+  color: #00470f;
+}
+
 /*-- Navigation --*/
 .navbar {
   text-transform: uppercase;
@@ -111,6 +118,8 @@ h3.heading {
   background-color: #470000;
   margin: 0 auto 2rem;
 }
+
+/* SKILLS */
 .skill svg.svg-inline--fa {
   color: #470000;
 }
@@ -122,8 +131,6 @@ h3.heading {
 .skill p {
   font-size: 1.1rem;
 }
-
-/* SKILLS */
 .fixed {
   background-image: url(img/jannis-brandt-unsplash.jpg);
   z-index: -1;
@@ -140,7 +147,7 @@ h3.heading {
   margin-top: 1.5rem;
 }
 
-/* Mock Clients Section */
+/* ABOUT ME */
 .about img {
   width: 100%;
   border-radius: 50%;
@@ -151,7 +158,11 @@ blockquote .svg-inline--fa {
   text-justify: auto;
 }
 
-/* Contact Section */
+/* CONTACT */
+#form-style {
+  align-content: center;
+  width: 500px;
+}
 footer {
   background-color: #40474E;
   color: white;
