@@ -40,7 +40,7 @@ a:hover {
 }
 .navbar-dark .navbar-nav .nav-link .nav-link.active,
 .navbar-dark .navbar-nav .nav-link .nav-link:hover {
-  color: #1EBBA3;
+  color: #40474E;
 }
 
 /*-- Landing Page --*/
@@ -162,6 +162,7 @@ blockquote .svg-inline--fa {
 #form-style {
   align-content: center;
   width: 500px;
+  display: inline-block;
 }
 footer {
   background-color: #40474E;
@@ -204,7 +205,7 @@ hr.socket {
     padding: .5rem 1rem;
     font-size: 1rem;
   }
-  .clients img {
+  .about img {
     max-width: 50%;
     display: block;
     margin: 0 auto;
